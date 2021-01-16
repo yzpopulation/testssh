@@ -13,8 +13,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup upterm session
-      uses: lhotari/action-upterm@v1
+     - uses: actions/checkout@v2
+ 
+     - name: Setup Debug Session
+       uses: csexton/debugger-action@master
